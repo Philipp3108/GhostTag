@@ -16,12 +16,12 @@
 ## Installation
 
 1. Clone the repository:
-   `git clone https://github.com/your-username/ghosttag.git`
+   `git clone https://github.com/Philipp3108/ghosttag.git`
 
-2. Navigate into the project folder:
+3. Navigate into the project folder:
    `cd ghosttag`
 
-3. Install the required Python libraries:
+4. Install the required Python libraries:
    `pip install -r requirements.txt`
 
 ---
