@@ -1,30 +1,84 @@
-# GhostTag: Watermarking Tool for Digital Images
+# GhostTag
 
-**GhostTag** is an advanced Python-based application designed to seamlessly embed and extract watermarks from digital images. Whether you're protecting your creative works, adding invisible metadata, or securing your files, GhostTag is the perfect solution. This tool uses a unique pattern-based approach to invisibly encode text within images, making it both practical and efficient for image watermarking.
+**GhostTag** is a simple and intuitive watermark tool that allows you to embed hidden watermarks into images and extract them later. This tool utilizes steganography techniques to hide text in an image in a way that is not visible to the naked eye but can be recovered programmatically.
 
 ---
 
 ## Features
 
-- **Embed Watermark Text**: Effortlessly embed hidden text watermarks into your images.
-- **Extract Watermark Text**: Retrieve hidden watermark text from images with precision.
-- **Pattern-Based Approach**: Utilizes a unique pattern-based method for encoding text.
-- **Simple User Interface**: Clean and easy-to-use interface with drag-and-drop functionality.
-- **Customizable Strength**: Fine-tune watermark strength and visibility based on user preferences.
-- **Support for Multiple Formats**: Works with various image formats such as PNG, JPG, and BMP.
-- **Dark Mode**: Switch between light and dark themes for better user experience.
+- **Embed Watermark**: Embed a hidden watermark (text) into an image.
+- **Extract Watermark**: Extract the hidden watermark (text) from an image.
+- **File Drag & Drop**: Simply drag and drop an image to load it.
+- **Dark Mode**: Toggle between light and dark themes for a better user experience.
 
 ---
 
 ## Installation
 
-### Prerequisites
-- **Python 3.x**: Ensure you have Python 3.x installed. You can download it from [python.org](https://www.python.org/downloads/).
-- **Dependencies**: GhostTag uses a few Python libraries for image processing and GUI creation. These dependencies are specified in the `requirements.txt` file.
+1. Clone the repository:
+   `git clone https://github.com/your-username/ghosttag.git`
 
-### Steps to Install
+2. Navigate into the project folder:
+   `cd ghosttag`
 
-1. **Clone the Repository:**
-   Open your terminal/command prompt and clone the repository using Git:
-   ```bash
-   git clone https://github.com/yourusername/GhostTag.git
+3. Install the required Python libraries:
+   `pip install -r requirements.txt`
+
+---
+
+## How to Use
+
+1. **Open the Application**: Run the `ghosttag.py` file to launch the application.
+2. **Select an Image**: Click on the "📁 Select File" button to choose an image from your computer, or drag and drop an image directly onto the app.
+3. **Enter Text**: Type the text you want to embed in the watermark in the input box ("Enter your text here...").
+4. **Embed Watermark**: Click on the "💧 Embed Watermark" button to hide the text within the image.
+5. **Extract Watermark**: Click on the "🔍 Extract Watermark" button to reveal the hidden text in the image.
+6. **Save Image**: Click on the "💾 Save Image" button to save the modified image with the embedded watermark.
+
+---
+
+## Screenshots
+
+Here are some screenshots of the application:
+
+![Screenshot 1](screenshot1.png)
+![Screenshot 2](screenshot2.png)
+
+---
+
+## Technologies Used
+
+- **Python** for the main application.
+- **Tkinter** for the graphical user interface.
+- **PIL (Python Imaging Library)** for image processing.
+- **ttkbootstrap** for a modern, stylish UI.
+- **Steganography techniques** to embed and extract text data from images.
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## Contributing
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-name`).
+3. Commit your changes (`git commit -am 'Add feature'`).
+4. Push to the branch (`git push origin feature-name`).
+5. Create a new Pull Request.
+
+---
+
+## Contact
+
+If you have any questions, feel free to open an issue or contact me directly.
+
+---
+
+## Notes
+
+- The application is designed for Python 3.x.
+- Make sure to have the required dependencies installed before running the program. 
