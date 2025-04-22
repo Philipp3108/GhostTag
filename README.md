@@ -37,9 +37,9 @@
 
 ---
 
-## Screenshots
+## Screenshot
 
-Here are some screenshots of the application:
+Here is a screenshot of the application:
 
 ![Screenshot 1](screenshot.png)
 
