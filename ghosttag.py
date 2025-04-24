@@ -219,7 +219,7 @@ class WatermarkApp:
     def save_image(self):
         if self.processed_image:
             file_path = filedialog.asksaveasfilename(defaultextension=".png",
-                                                     filetypes=[("PNG files", "*.png")])
+                                                     filetypes=[("Image Files", "*.png *.jpg *.jpeg *.bmp")])
             if file_path:
                 saveImage(self.processed_image, os.path.splitext(file_path)[0])
                 self.status_label.config(text="Image saved successfully.")
