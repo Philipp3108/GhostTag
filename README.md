@@ -55,12 +55,6 @@ Here is a screenshot of the application:
 
 ---
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
 ## Contributing
 
 1. Fork the repository.
